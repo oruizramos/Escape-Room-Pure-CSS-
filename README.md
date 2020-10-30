@@ -9,16 +9,23 @@ It´s a very basic/short Escape room where the player can click around in order 
 *Solution/Spoilers*
 
 -Take the hammer
+
 -Knock down the mirror with it
+
 -Turn the lights off (using the interruptor/switch on the left wall)
+
 -Input the correct number sequence in the panel located on the left wall
+
 -Take the key
+
 -Use the key on the door to escape
 
 
 
 *Win Condition:
+
 -Find the key to escape the room
 
 *Lose Condition:
+
 -Use a wrong number combination/password in the panel
