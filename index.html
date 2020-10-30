@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Escape Room</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="root">  <input type="radio" name="view" id="left">
+    <input type="radio" name="view" id="center" checked>
+    <input type="radio" name="view" id="right">   
+    <input type="radio" name="view" id="box">   
+  <input type="radio"  name="view" id="door">
+    <input type="checkbox" id="light">
+    <input type="checkbox" id="mirror">
+    <input type="checkbox" id="hammer">
+    <input type="checkbox" id="pass_1">
+    <input type="checkbox" id="pass_2">
+    <input type="checkbox" id="pass_3">
+    <input type="checkbox" id="pass_4">
+    <input type="checkbox" id="pass_5">
+    <input type="checkbox" id="box_open">
+  <input type="checkbox" id="key">
+
+  <input type="checkbox" id="lock">
+<div class="screen">
+            <input type="text"   class="icon hammer" autocomplete="off">
+              <input type="text"   class="icon key" autocomplete="off">
+        <div class="room">
+            <div class="wall_left">
+             <label class="box" for="box">
+                        <div class="box_door">
+                            <label class="pass_1" for="pass_1"></label>
+                            <label class="pass_2" for="pass_2"></label>
+                            <label class="pass_3" for="pass_3"></label>
+                            <label class="pass_4" for="pass_4"></label>
+                            <label class="pass_5" for="pass_5"></label>
+                            <label class="box_open" for="box_open"></label>
+                        </div>
+                        <label class="key" for="key"></label>
+                    </label>
+             <label class="left" for="left"> </label>
+                            <label class="light" for="light"></label> 
+            </div>
+            <div class="wall_front">
+              <label class="center" for="center"></label>
+
+               <label class="hammer" for="hammer"></label>
+              <label class="door" for="door"> 
+                <label class="lock" for="lock"></label>
+              </label>
+            </div>
+            <div class="wall_right">
+              <label class="right" for="right"></label>
+                            <label class="mirror" for="mirror"> </label>
+          </div>
+            <div class="floor"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
